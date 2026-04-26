@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Scanner System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scan-container">
+        <video id="video" autoplay playsinline></video>
+        
+        <div class="scan-line"></div>
+        
+        <div class="status-panel">
+            <h2 id="status-text">SİSTEM HAZIR</h2>
+            <p id="sub-text">Lütfen elinizi kameraya yaklaştırın...</p>
+        </div>
+
+        <button id="scan-btn">Taramayı Başlat</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
